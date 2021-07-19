@@ -7,7 +7,7 @@ export const ButtonLink = styled.a`
     font-size: 20px;
     border: 1px solid ${({ theme }) => theme.colors.ironTransparent};
     color: ${({ theme }) => theme.colors.white};
-    border-radius: 4px;
+    border-radius: ${({ theme }) => theme.borderRadiusSmall};
     background: ${({ theme }) => theme.colors.scienceBlue};
     transition: box-shadow 0.3s;
 `;
