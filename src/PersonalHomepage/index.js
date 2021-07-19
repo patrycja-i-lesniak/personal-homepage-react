@@ -1,8 +1,20 @@
-import {Container} from "./styled";
-import {MainInformation} from "./MainInformation";
+import { Container } from "./styled";
+import { MainInformation } from "./MainInformation";
+import { Skills } from "./Skills";
+import { skills, nextSkills } from "./Skills/skills";
 
 export const PersonalHomepage = () => (
     <Container>
-        <MainInformation/>
+        <MainInformation />
+        <main>
+            <Skills
+                title="My skillset includes:"
+                skills={skills}
+            />
+            <Skills
+                title="What I want to learn next:"
+                skills={nextSkills}
+            />
+        </main>
     </Container>
 )
