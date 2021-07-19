@@ -1,8 +1,8 @@
 import { ThemeProvider } from "styled-components";
-import { theme } from "./Theme";
+import { theme } from "./theme";
 import { Normalize } from "styled-normalize";
-import { GlobalStyle } from "./GlobalStyle";
-import { PersonalHomepage } from "./PersonalHomepage"
+import { GlobalStyle } from "../../GlobalStyle";
+import { PersonalHomepage } from "../../PersonalHomepage"
 
 
 export const App = () => {
