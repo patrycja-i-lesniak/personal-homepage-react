@@ -1,7 +1,8 @@
 import {Container} from "./styled";
+import {MainInformation} from "./MainInformation";
 
 export const PersonalHomepage = () => (
     <Container>
-        <p>Lorem ipsum...</p>
+        <MainInformation/>
     </Container>
 )
