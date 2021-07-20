@@ -52,7 +52,7 @@ export const Summary = styled.p`
     margin-top: 36px;
     line-height: 1.4;
     max-width: 650px;
-    
+
     @media(max-width: ${({theme}) => theme.breakpoints.tabletVerticalMax}px) {
         margin-top: 16px;
     }
@@ -73,6 +73,10 @@ export const StyledButtonLink = styled(ButtonLink)`
   display: inline-flex;
   align-items: center;
   margin-top: 32px;
+
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
+       margin-top: 24px;
+   }
 `;
 
 export const ButtonIcon = styled(EnvelopeIcon)`
