@@ -4,9 +4,11 @@ import { Skills } from "./Skills";
 import { skills, nextSkills } from "./Skills/skills";
 import { Footer } from "./Footer";
 import { Portfolio } from "./Portfolio";
+import { ThemeSwitch } from "../../../common/ThemeSwitch";
 
 export const PersonalHomepage = () => (
     <Container>
+        <ThemeSwitch />
         <MainInformation />
         <main>
             <Skills
