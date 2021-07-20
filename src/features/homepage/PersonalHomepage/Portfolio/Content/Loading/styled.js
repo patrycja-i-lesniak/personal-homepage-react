@@ -8,6 +8,8 @@ const rotate = keyframes`
 `;
 
 export const Wrapper = styled.div`
+display: grid;
+justify-items: center;
 text-align: center;
 margin-top: 88px;
 font-size: 20px;
