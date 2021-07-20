@@ -6,15 +6,12 @@ import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from 
 import { Content } from "./Content";
 import { githubUsername } from "./githubUsername";
 
-
-
-
 export const Portfolio = () => {
     const dispatch = useDispatch();
 
     const repositoriesStatus = useSelector(selectRepositoriesStatus);
     const repositories = useSelector(selectRepositories);
-    
+
     useEffect(() => {
         dispatch(fetchRepositories(githubUsername));
     }, [dispatch]);

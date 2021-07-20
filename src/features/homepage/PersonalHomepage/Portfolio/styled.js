@@ -10,7 +10,7 @@ export const Section = styled.section`
 `;
 
 export const StyledGithubIcon = styled(GithubIcon)`
-     color: ${({theme}) => theme.colors.primary};
+    color: ${({theme}) => theme.colors.primary};
     margin-bottom: 8px;
 `;
 
@@ -24,7 +24,7 @@ margin-top: 8px;
 font-size: 20px;
 color: ${({theme}) => theme.colors.textPrimary};
 
-    @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
-        font-size: 17px;  
+@media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
+  font-size: 17px;
 }
 `;
