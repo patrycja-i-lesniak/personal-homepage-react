@@ -5,7 +5,7 @@ import flamingo from "./flamingo.png";
 
 export const MainInformation = () => (
     <Wrapper>
-        <Avatar src={patrycjaLesniakProfile} alt="Patrycja Lesniak" />
+        <Avatar src={patrycjaLesniakProfile} alt="Patrycja Leśniak" />
         <div>
             <ThisIs>This is</ThisIs>
             <Name>Patrycja Leśniak</Name>
