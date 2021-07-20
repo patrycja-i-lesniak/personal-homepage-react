@@ -38,8 +38,13 @@ export const ThisIs = styled.div`
 export const Name = styled.h1`
     font-size: 38px;
     font-weight: 900;
-    color: ${({theme}) => theme.colors.mineShaft};
+    color: ${({theme}) => theme.colors.textPrimary};
     margin: 12px 0 0 0;
+
+    @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
+        font-size: 22px;
+        margin-top: 8px;
+    }
 `;
 
 export const Summary = styled.p`
