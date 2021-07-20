@@ -3,7 +3,7 @@ import { SubHeader } from "../SubHeader";
 import { ReactComponent as BulletIcon } from "./bullet.svg";
 
 export const Section = styled.section`
-    background: ${({ theme }) => theme.colors.white};
+    background: ${({ theme }) => theme.colors.boxBackground};
     padding: 32px;
     margin-top: 72px;
     box-shadow: ${({ theme }) => theme.boxShadow};
