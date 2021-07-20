@@ -23,13 +23,13 @@ export const Repositories = ({ repositories }) => (
                         </LinksRow>
                     )}
                     <LinksRow>
-                            <dt>Code:</dt>
-                            <LinksValue>
-                                <Link target="_blank" rel="noreferrer" href={html_url}>GitHub Repository</Link>
-                            </LinksValue>
-                        </LinksRow>
-                    </Links>
+                        <dt>Code:</dt>
+                        <LinksValue>
+                            <Link target="_blank" rel="noreferrer" href={html_url}>GitHub Repository</Link>
+                        </LinksValue>
+                    </LinksRow>
+                </Links>
             </Tile>
-))}
+        ))}
     </List >
 )

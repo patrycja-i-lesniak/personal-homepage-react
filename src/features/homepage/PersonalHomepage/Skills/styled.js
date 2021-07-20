@@ -49,7 +49,7 @@ export const Item = styled.li`
 
 
 export const Bullet = styled(BulletIcon)`
-    color: ${({theme}) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.primary};
     margin-right: 16px;
     height: auto;
 
@@ -62,7 +62,7 @@ export const Bullet = styled(BulletIcon)`
 
 export const StyledHeader = styled(SubHeader)`
     padding-bottom: 16px;
-    border-bottom: 1px solid ${({theme}) => theme.colors.headerLine};
+    border-bottom: 1px solid ${({ theme }) => theme.colors.headerLine};
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         padding-bottom: 12px;

@@ -11,7 +11,7 @@ const personalHomePageSlice = createSlice({
             status: "loading",
             repositories: null,
         }),
-        fetchRepositoriesSuccess: (_, {payload: repositories}) => ({
+        fetchRepositoriesSuccess: (_, { payload: repositories }) => ({
             status: "success",
             repositories,
         }),

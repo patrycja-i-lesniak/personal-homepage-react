@@ -13,10 +13,10 @@ export const Content = ({ status, repositories }) => {
         case "error":
             return <ErrorBox />;
 
-            case "success":
-                return <Repositories repositories={repositories}/>
+        case "success":
+            return <Repositories repositories={repositories} />
 
-                default:
-                    throw new Error(`incorrect status: ${status}`);
+        default:
+            throw new Error(`incorrect status: ${status}`);
     }
 };

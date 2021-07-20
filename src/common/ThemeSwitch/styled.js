@@ -28,8 +28,8 @@ export const Text = styled.span`
 `;
 
 export const Box = styled.span`
-display: flex;
-width: 48px;
+    display: flex;
+    width: 48px;
     background: ${({ theme }) => theme.colors.themeSwitch.background};
     border: 1px solid;
     padding: 2px;
@@ -48,5 +48,5 @@ export const IconWrapper = styled.span`
 `;
 
 export const Icon = styled(SunIcon)`
-color:${({theme}) => theme.colors.themeSwitch.icon};
+    color:${({ theme }) => theme.colors.themeSwitch.icon};
 `;
