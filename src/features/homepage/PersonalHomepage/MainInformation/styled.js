@@ -52,6 +52,15 @@ export const Summary = styled.p`
     margin-top: 36px;
     line-height: 1.4;
     max-width: 650px;
+    
+    @media(max-width: ${({theme}) => theme.breakpoints.tabletVerticalMax}px) {
+        margin-top: 16px;
+    }
+
+    @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
+       font-size: 16px;
+       max-width: 570px;
+    }
 `;
 
 export const Icon =  styled.img`
