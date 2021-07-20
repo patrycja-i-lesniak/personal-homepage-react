@@ -9,7 +9,7 @@ export const List = styled.ul`
     padding: 0;
     grid-gap: 32px;
 
-    @media(max-width: ${({theme}) => theme.breakpoints.tableVerticalMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.tabletVerticlaMax}px) {
         grid-template-columns: 1fr;
         grid-gap: 24px;
     }
