@@ -37,7 +37,7 @@ export const Name = styled.h3`
     font-size: 24px;
     color: ${({theme}) => theme.colors.tile.header};
     margin: 0;
-
+    
     @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
         font-size: 16px;
     }
@@ -47,7 +47,7 @@ export const Name = styled.h3`
 export const Description = styled.p`
     margin-top: 24px;
     line-height: 1.4;
-
+    
     @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
         margin-top: 16px;
         font-size: 14px;
