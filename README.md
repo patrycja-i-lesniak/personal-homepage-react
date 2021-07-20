@@ -4,6 +4,10 @@
 * Work in progress.
 * July, 2021.
 
+## Demo
+https://patrycja-i-lesniak.github.io/personal-homepage-react/
+
+
 ## Technologies
 Project is created with:
 * Semantic HTML;
@@ -19,9 +23,6 @@ Project is created with:
 * Redux;
 * Redux-Saga
 * Redux-toolkit.
-
-## Demo
-https://patrycja-i-lesniak.github.io/personal-homepage-react/
 
 * * * * *
 # Getting Started with Create React App
