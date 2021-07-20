@@ -7,6 +7,15 @@ export const Wrapper = styled.header`
     grid-template-columns: auto 1fr;
     grid-gap: 64px;
     align-items: center;
+
+    @media(max-width: ${({theme}) => theme.breakpoints.tabletVerticalMax}px) {
+    grid-gap: 32px;
+}
+
+    @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
+        grid-template-columns: 1fr;
+        grid-gap: 12px;
+    }
 `;
 
 export const Avatar = styled.img`
