@@ -7,7 +7,8 @@ const colorNames = {
     tropicalBlue: "#CDE0F7",
     ironTransparent: "rgba(209, 213, 218, 0.3)",
     white: "#FFFFFF",
-    whiteLilac: "#FBFBFE",
+    alabaster: "#FAFAFA",
+    trout: "#4C4E61",
     porcelain: "#F2F3F4",
     mercury: "#e5e5e5",
     slateGray: "#6E7E91",
@@ -23,16 +24,16 @@ const common = {
         tabletVerticalMax: 991,
     },
     boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
-    borderRadiusSmall: "4px",
+    borderRadiusSmall: "10px",
 };
 
 export const themeLight = {
     ...common,
     colors: {
         primary: colorNames.scienceBlue,
-        textPrimary: colorNames.mineShaft,
+        textPrimary: colorNames.trout,
         site: {
-            background: colorNames.whiteLilac,
+            background: colorNames.alabaster,
             text: colorNames.slateGray,
         },
         buttonLink: {

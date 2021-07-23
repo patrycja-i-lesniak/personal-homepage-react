@@ -10,7 +10,7 @@ html  {
   }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
     background: ${({ theme }) => theme.colors.site.background};
     color: ${({ theme }) => theme.colors.site.text};
     font-size: 18px;
