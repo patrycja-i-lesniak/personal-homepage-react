@@ -4,7 +4,6 @@ import { email } from "../email";
 
 export const MainInformation = () => (
     <Wrapper>
-        <Avatar src={patrycjaLesniakProfile} alt="Patrycja Leśniak" />
         <div>
             <ThisIs>This is</ThisIs>
             <Name>Patrycja Leśniak</Name>
@@ -17,5 +16,6 @@ export const MainInformation = () => (
                 Hire me
             </StyledButtonLink>
         </div>
+        <Avatar src={patrycjaLesniakProfile} alt="Patrycja Leśniak" />
     </Wrapper>
 );

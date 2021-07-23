@@ -4,9 +4,10 @@ import {ReactComponent as EnvelopeIcon} from "./envelope.svg";
 
 export const Wrapper = styled.header`
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr auto;
     grid-gap: 64px;
     align-items: center;
+    padding: 40px 40px 0px;
 
     @media(max-width: ${({theme}) => theme.breakpoints.tabletVerticalMax}px) {
     grid-gap: 32px;
@@ -16,7 +17,6 @@ export const Wrapper = styled.header`
         grid-template-columns: 1fr;
         grid-gap: 12px;
         margin: 20px;
-        justify-items: center;
     }
 `;
 
@@ -24,6 +24,7 @@ export const Avatar = styled.img`
     width: 30vw;
     max-width: 384px;
     border-radius: 50%;
+    border-top-right-radius: 0%;
 
     @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
         grid-gap: 132px;
@@ -32,13 +33,13 @@ export const Avatar = styled.img`
 
 export const ThisIs = styled.div`
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: initial;
 `;
 
 export const Name = styled.h1`
-    font-size: 38px;
+    font-size: 54px;
     font-weight: 900;
     color: ${({theme}) => theme.colors.textPrimary};
     margin: 12px 0 0 0;
