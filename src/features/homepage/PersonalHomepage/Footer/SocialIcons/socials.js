@@ -17,7 +17,7 @@ export const socials = [
     },
     {
         name: "LinkedIn",
-        url: "http://linkedin.com",
+        url: "https://www.linkedin.com/in/patrycja-le%C5%9Bniak-b82020218/",
         Icon: styleIcon(LinkedInIcon),
     },
     {
