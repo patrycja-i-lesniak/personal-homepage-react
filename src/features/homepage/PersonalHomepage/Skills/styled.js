@@ -22,11 +22,8 @@ export const List = styled.ul`
     grid-gap: 8px 32px;
     list-style: none;
 
-    @media(max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     @media(max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
+        grid-template-columns: repeat(2, 1fr);
         font-size: 16px;
     }
 
