@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.footer`
-    margin-top: 120px;
+    margin-top: 80px;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-top: 48px;
