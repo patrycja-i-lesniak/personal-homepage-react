@@ -7,23 +7,23 @@
 ## Demo
 https://patrycja-i-lesniak.github.io/personal-homepage-react/
 
-![MyPersonalHomepage](src/homepage.jpg)
+![MyPersonalHomepage](public/homepage.jpg)
 
 
 ## Technologies
 Project is created with:
-* Semantic HTML;
-* CSS;
-* Grid;
-* Flex;
-* Media queries;
-* BEM;
-* ES6+;
-* React JS;
-* Styled components;
-* Custom hooks;
-* Redux;
-* Redux-Saga;
+* Semantic HTML
+* CSS
+* Grid
+* Flex
+* Media queries
+* BEM
+* ES6+
+* React JS
+* Styled components
+* Custom hooks
+* Redux
+* Redux-Saga
 * Redux-toolkit.
 
 * * * * *
