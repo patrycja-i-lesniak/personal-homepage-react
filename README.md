@@ -7,6 +7,8 @@
 ## Demo
 https://patrycja-i-lesniak.github.io/personal-homepage-react/
 
+![Screen](src/homepage.jpg)
+
 
 ## Technologies
 Project is created with:
@@ -21,7 +23,7 @@ Project is created with:
 * Styled components;
 * Custom hooks;
 * Redux;
-* Redux-Saga
+* Redux-Saga;
 * Redux-toolkit.
 
 * * * * *
