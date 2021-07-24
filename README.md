@@ -7,7 +7,7 @@
 ## Demo
 https://patrycja-i-lesniak.github.io/personal-homepage-react/
 
-![Screen](src/homepage.jpg)
+![MyPersonalHomepage](src/homepage.jpg)
 
 
 ## Technologies
