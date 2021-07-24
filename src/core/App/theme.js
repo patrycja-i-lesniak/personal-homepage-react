@@ -1,15 +1,16 @@
 const colorNames = {
-    scienceBlue: "#0366D6",
-    blumine: "#1F5189",
-    dodgerBlue: "#2188FF",
+    cardinal: "#C01638",
+    crimson: "#DC143C",
+    crimsonTransparent: "rgba(220, 20, 60, 0.03)",
+    yukonGold: "#F4CA10",
+    yukonGoldTransparent: "rgba(244,202,16, 0.3)",
     shipCove: "#6D93BE",
     anakiwa: "#8CC2FF",
-    tropicalBlue: "#CDE0F7",
-    ironTransparent: "rgba(209, 213, 218, 0.3)",
+    // ironTransparent: "rgba(209, 213, 218, 0.3)",
     white: "#FFFFFF",
     alabaster: "#FAFAFA",
     trout: "#4C4E61",
-    porcelain: "#F2F3F4",
+    quillGray: "#D9D9D8",
     mercury: "#e5e5e5",
     slateGray: "#6E7E91",
     doveGray: "#6D6D6D",
@@ -23,58 +24,60 @@ const common = {
         mobileMax: 769,
         tabletVerticalMax: 991,
     },
-    boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
     borderRadiusSmall: "10px",
 };
 
 export const themeLight = {
     ...common,
     colors: {
-        primary: colorNames.scienceBlue,
+        primary: colorNames.cardinal,
         textPrimary: colorNames.trout,
+        headline: colorNames.trout,
         site: {
             background: colorNames.alabaster,
             text: colorNames.slateGray,
         },
         buttonLink: {
             text: colorNames.white,
-            border: colorNames.ironTransparent,
+            border: colorNames.crimsonTransparent,
             shadow: colorNames.anakiwa,
         },
         boxBackground: colorNames.white,
         headerLine: colorNames.mercury,
         tile: {
-            border: colorNames.porcelain,
-            borderHover: colorNames.tropicalBlue,
-            header: colorNames.scienceBlue,
+            border: colorNames.white,
+            borderHover: colorNames.crimson,
+            header: colorNames.trout,
         },
         themeSwitch: {
             background: colorNames.mercury,
             icon: colorNames.white,
         },
     },
-
+    boxShadow: "0px -2px 50px rgb(241, 233, 235), 0px 16px 58px rgba(9, 10, 51, 0.03)",
 };
 
 export const themeDark = {
     ...common,
     colors: {
-        primary: colorNames.dodgerBlue,
+        primary: colorNames.yukonGold,
         textPrimary: colorNames.white,
+        headline: colorNames.yukonGold,
         site: {
             background: colorNames.mineShaft,
-            text: colorNames.white,
+            text: colorNames.quillGray,
         },
         buttonLink: {
-            text: colorNames.white,
-            border: colorNames.ironTransparent,
+            text: colorNames.mineShaft,
+            border: colorNames.yukonGoldTransparent,
             shadow: colorNames.shipCove,
         },
         boxBackground: colorNames.mineShaftLighter,
+            text: colorNames.yukonGold,
         headerLine: colorNames.tundora,
         tile: {
-            border: colorNames.tundora,
-            borderHover: colorNames.blumine,
+            border: colorNames.mineShaftLighter,
+            borderHover: colorNames.yukonGold,
             header: colorNames.white,
         },
         themeSwitch: {
@@ -82,6 +85,6 @@ export const themeDark = {
             icon: colorNames.mineShaft,
         },
     },
-
+    boxShadow: "0px -2px 50px rgb(28, 28, 28 ,0.01), 0px 16px 58px rgba(9, 10, 51, 0.03)",
 };
 
