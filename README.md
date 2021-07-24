@@ -24,7 +24,7 @@ Project is created with:
 * Custom hooks
 * Redux
 * Redux-Saga
-* Redux-toolkit.
+* Redux-toolkit
 
 * * * * *
 # Getting Started with Create React App
