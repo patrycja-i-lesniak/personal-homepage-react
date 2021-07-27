@@ -6,7 +6,7 @@ import {
     LinksRow,
     List,
     Name,
-    LinksValue
+    LinksValue,
 } from "./styled";
 
 export const Repositories = ({ repositories }) => (
@@ -16,11 +16,11 @@ export const Repositories = ({ repositories }) => (
                 <Name>{name}</Name>
                 <Description>{description}</Description>
                 <Links>
-                    {!!homepage && (
+                    {homepage && (
                         <LinksRow>
                             <dt>Demo:</dt>
                             <LinksValue>
-                                <Link target="_blank" rel="noreferrer" href={html_url}>Demo</Link>
+                                <Link target="_blank" rel="noreferrer" href={homepage}>Preview site</Link>
                             </LinksValue>
                         </LinksRow>
                     )}
