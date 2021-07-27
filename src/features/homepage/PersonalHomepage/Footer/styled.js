@@ -39,7 +39,7 @@ export const EmailLink = styled.a`
     }
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        font-size: 18px;
+        font-size: 16px;
     }
 `;
 
