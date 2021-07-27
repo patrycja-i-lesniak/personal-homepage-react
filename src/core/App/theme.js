@@ -2,8 +2,10 @@ const colorNames = {
     cardinal: "#C01638",
     crimson: "#DC143C",
     crimsonTransparent: "rgba(220, 20, 60, 0.03)",
+    carnation: "#F5476B",
     yukonGold: "#F4CA10",
     yukonGoldTransparent: "rgba(244,202,16, 0.3)",
+    goldenSand: "#F1DA74",
     white: "#FFFFFF",
     alabaster: "#FAFAFA",
     trout: "#4C4E61",
@@ -37,7 +39,7 @@ export const themeLight = {
         buttonLink: {
             text: colorNames.white,
             border: colorNames.crimsonTransparent,
-            shadow: colorNames.doveGray,
+            shadow: colorNames.carnation,
         },
         boxBackground: colorNames.white,
         headerLine: colorNames.mercury,
@@ -67,7 +69,7 @@ export const themeDark = {
         buttonLink: {
             text: colorNames.mineShaft,
             border: colorNames.yukonGoldTransparent,
-            shadow: colorNames.trout,
+            shadow: colorNames.goldenSand,
         },
         boxBackground: colorNames.mineShaftLighter,
             text: colorNames.yukonGold,
