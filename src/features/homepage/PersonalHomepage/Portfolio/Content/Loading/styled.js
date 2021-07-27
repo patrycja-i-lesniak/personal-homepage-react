@@ -8,17 +8,17 @@ const rotate = keyframes`
 `;
 
 export const Wrapper = styled.div`
-display: grid;
-justify-items: center;
-text-align: center;
-margin-top: 88px;
-font-size: 20px;
-color: ${({ theme }) => theme.colors.textPrimary};
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin-top: 88px;
+    font-size: 20px;
+    color: ${({ theme }) => theme.colors.textPrimary};
 
-@media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    font-size: 17px;
-    margin-top: 32px;
-}
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 17px;
+        margin-top: 32px;
+    }
 `;
 
 export const StyledSpinner = styled(Spinner)`

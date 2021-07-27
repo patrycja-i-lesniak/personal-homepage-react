@@ -1,5 +1,13 @@
 import patrycjaLesniakProfile from "./profile.jpg";
-import { Avatar, StyledButtonLink, ButtonIcon, Name, Summary, ThisIs, Wrapper } from "./styled";
+import {
+    Avatar,
+    StyledButtonLink,
+    ButtonIcon,
+    Name,
+    Summary,
+    ThisIs,
+    Wrapper,
+} from "./styled";
 import { email } from "../email";
 
 export const MainInformation = () => (
@@ -14,7 +22,7 @@ export const MainInformation = () => (
             </Summary>
             <StyledButtonLink href={`mailto:${email}`} title={email}>
                 <ButtonIcon />
-                Hire me
+                    Hire me
             </StyledButtonLink>
         </div>
     </Wrapper>

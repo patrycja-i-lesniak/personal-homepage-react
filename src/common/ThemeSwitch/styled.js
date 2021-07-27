@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 
 export const Button = styled.button`
     cursor: pointer;
-    border:none;
+    border: none;
     display: flex;
     align-items: center;
     color: inherit;
@@ -22,7 +22,7 @@ export const Text = styled.span`
     font-weight: bold;
     margin-right: 12px;
 
-@media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         display: none;
     }
 `;
@@ -37,16 +37,16 @@ export const Box = styled.span`
 `;
 
 export const IconWrapper = styled.span`
-    display:flex;
+    display: flex;
     background: currentColor;
     border-radius: 50%;
     transition: transform 0.3s;
 
     ${({ moveToRight }) => moveToRight && css`
-      transform: translateX(20px);
+        transform: translateX(20px);
     `}
 `;
 
 export const Icon = styled(SunIcon)`
-    color:${({ theme }) => theme.colors.themeSwitch.icon};
+    color: ${({ theme }) => theme.colors.themeSwitch.icon};
 `;

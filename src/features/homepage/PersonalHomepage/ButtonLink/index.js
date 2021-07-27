@@ -12,7 +12,7 @@ export const ButtonLink = styled.a`
     transition: box-shadow 0.3s;
 
     &:hover {
-    box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.buttonLink.shadow}
+        box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.buttonLink.shadow}
 }
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {

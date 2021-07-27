@@ -28,8 +28,8 @@ export const Portfolio = () => {
                 </MyRecentProjects>
             </Header>
             <Content
-            status={repositoriesStatus}
-            repositories={repositories}
+                status={repositoriesStatus}
+                repositories={repositories}
             />
         </Section>
     );

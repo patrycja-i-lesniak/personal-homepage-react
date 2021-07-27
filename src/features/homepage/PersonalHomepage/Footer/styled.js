@@ -51,7 +51,7 @@ export const Paragraph = styled.p`
     margin: 0;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    font-size: 14px; 
+        font-size: 14px;
     }
 `;
 

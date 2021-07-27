@@ -19,12 +19,12 @@ export const Header = styled.header`
 `;
 
 export const MyRecentProjects = styled.h3`
-font-weight: normal;
-margin-top: 8px;
-font-size: 20px;
-color: ${({ theme }) => theme.colors.textPrimary};
+    font-weight: normal;
+    margin-top: 8px;
+    font-size: 20px;
+    color: ${({ theme }) => theme.colors.textPrimary};
 
-@media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-  font-size: 17px;
-}
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 17px;
+    }
 `;

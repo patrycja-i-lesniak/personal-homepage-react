@@ -4,7 +4,9 @@ import {
     Link,
     Links,
     LinksRow,
-    List, Name, LinksValue
+    List,
+    Name,
+    LinksValue
 } from "./styled";
 
 export const Repositories = ({ repositories }) => (

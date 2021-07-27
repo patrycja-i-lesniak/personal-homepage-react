@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.article`
-    margin-top:96px;
+    margin-top: 96px;
     display: grid;
     justify-items: center;
     grid-gap: 32px;
