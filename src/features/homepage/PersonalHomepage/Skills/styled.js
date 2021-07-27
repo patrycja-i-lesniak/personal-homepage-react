@@ -31,6 +31,7 @@ export const List = styled.ul`
         font-size: 14px;
         grid-template-columns: 1fr;
         margin-top: 12px;
+        padding-left: 5px;
     }
 `;
 
